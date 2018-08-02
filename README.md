@@ -5,7 +5,7 @@ Author: [@laura_uzcategui](https://twitter.com/laura_uzcategui)
 
 The contents of this repository are for education purposes and were given on talk in Zendesk HQ Dublin in August 2018.
 
-Checkout the slides [WWCode Zero to Kafka in 10 seconds](./WWCODE_Zero_to_Kafka_in_10secs.pdf)
+Checkout the slides [WWCode Zero to Kafka in 10 seconds](./slides/WWCODE_Zero_to_Kafka_in_10secs.pdf)
 
 Purpose:
 - Standup of a **Single-Node Kafka Cluster** in Docker
