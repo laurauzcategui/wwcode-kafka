@@ -5,6 +5,8 @@ Author: [@laura_uzcategui](https://twitter.com/laura_uzcategui)
 
 The contents of this repository are for education purposes and were given on talk in Zendesk HQ Dublin in August 2018.
 
+Checkout the slides [WWCode Zero to Kafka in 10 seconds](./WWCODE_Zero_to_Kafka_in_10secs.pdf)
+
 Purpose:
 - Standup of a **Single-Node Kafka Cluster** in Docker
 - Produce and Send messages with **kafka-python** library
@@ -70,10 +72,16 @@ CONTAINER ID        IMAGE                       COMMAND                  CREATED
 
 Open 3 terminals and execute the following from each respectively.
 
+Create consumer and pass id as 1
+
 `python consumer.py -c 1`
+
+Create consumer and pass id as 2
 
 `python consumer.py -c 2`
 
+Execute the producer
+
 `python producer.py`
 
-You will see messages flowing from through one producer or another with different partitions.
+You will see messages flowing from through one consumer or another with different partitions.
